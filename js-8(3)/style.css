@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu {
+    height: 100%;
+    position: absolute;
+    top: 50px;
+    display: none;
+    width: 250px;
+    background-color: red;
+}
+
+
+
+.open {
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    left: 0;
+}
+
+.close {
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    left: 0;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.first a {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.second a {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.focused {
+    background-color: aquamarine;
+}
+
+button{
+    border: none;
+    vertical-align: middle;
+}
+
+input{
+    border: none ;
+    width: 200px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+form{
+    background-color: aliceblue;
+}
+
+input:focus{
+    outline: none;
+}
